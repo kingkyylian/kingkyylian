@@ -15,12 +15,6 @@ Hi, I'm [kyylian]! 👋 AI Automation Specialist
    **Frontend:** Streamlit, React/Next.js
    **Database:** Supabase (PostgreSQL), Vector DBs (FAISS, Pinecone)
    📁 Featured Projects
-   **[AI Cafe
-      Waiter](https://github.com/kingkyylian/ai-solutions-lab/tree/main/01-ai-ch
-      atbot):** Intelligent restaurant ordering bot.
-   📄 **[Document
-      Intelligence](https://github.com/kingkyylian/ai-solutions-lab/tree/main/02
-      -pdf-rag):** RAG-based search for private documents.
-   ⚙️ **[AI Automation
-      Hub](https://github.com/kingkyylian/ai-solutions-lab/tree/main/03-ai-autom
-      ation):** Web scraping & analysis system.
+   **[AI CafeWaiter](https://github.com/kingkyylian/ai-solutions-lab/tree/main/01-ai-chatbot):** Intelligent restaurant ordering bot.
+   📄 **[DocumentIntelligence](https://github.com/kingkyylian/ai-solutions-lab/tree/main/02-pdf-rag):** RAG-based search for private documents.
+   ⚙️ **                                                                                                                                 [AI AutomationHub](https://github.com/kingkyylian/ai-solutions-lab/tree/main/03-ai-automation):** Web scraping & analysis system.
