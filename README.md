@@ -1,4 +1,4 @@
-1 # Hi, I'm [Your Name]! 👋 AI Automation Specialist
+1 # Hi, I'm [kyylian]! 👋 AI Automation Specialist
     2
     3 Building intelligent solutions that solve real business problems. Partner
       at **Nexus AI Studio**.
