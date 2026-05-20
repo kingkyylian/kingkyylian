@@ -1,33 +1,36 @@
 # Huseyin Kagan Isik
 
-Software developer building local-first tools for AI agents, security automation, and developer workflows.
+I build local-first developer tools for AI agents, security automation, and verifiable workflows.
 
-I care about small, verifiable systems: CLIs that explain their decisions, reports that can be checked in CI, and automation that stays useful after the first demo.
-
-## Current Focus
-
-- Testing whether coding-agent instructions actually work in real repositories.
-- Building deterministic developer tools around AI-assisted engineering.
-- Shipping practical security and audit CLIs for local environments.
-- Turning validation work into upstream fixes instead of generic product claims.
+My current focus is small, auditable CLIs that help developers move faster without handing control to a black box: instruction checks, handoff packets, host audit reports, and native workflow surfaces that stay useful after the first demo.
 
 ## Selected Work
 
-| Project | What it does | Stack |
+| Project | What it proves | Status |
 | --- | --- | --- |
-| [AgentFit](https://github.com/kingkyylian/agentfit) | Local-first checks for `AGENTS.md`, `CLAUDE.md`, Cursor rules, and coding-agent instructions. Includes CLI reports, scoring, generated fitness tasks, and a GitHub Action. | TypeScript, Node.js, GitHub Actions |
-| [Linwarden](https://github.com/kingkyylian/linwarden) | Rootless Linux host inventory and hardening audit CLI. | Python |
-| [RealityKit Pipeline Guide](https://github.com/kingkyylian/realitykitpipelineguide) | Teaching repo for the Blender to USDZ to RealityKit iOS asset pipeline. | Python, RealityKit |
+| [AgentFit](https://github.com/kingkyylian/agentfit) | `AGENTS.md`, `CLAUDE.md`, Cursor rules, and coding-agent instructions can be tested like product surface. Includes local scoring, generated fitness tasks, CI reports, and a GitHub Action. | npm CLI, GitHub Action, real-world validation |
+| [Linwarden](https://github.com/kingkyylian/linwarden) | Linux host hardening can be audited without root, daemons, network calls, or heavyweight compliance tooling. Outputs Markdown, JSON, and SARIF for CI and code scanning. | PyPI package, GitHub Action, signed releases |
+| [HandoffKit](https://github.com/kingkyylian/handoffkit) | Interrupted AI coding sessions need deterministic resume packets, not raw transcript dumps. Captures branch state, diffs, instructions, verification scripts, and secret-aware context. | npm CLI, active release line |
+| [Flowline](https://github.com/kingkyylian/flowline) | macOS developer context can live in a local, privacy-preserving top-edge workflow layer instead of another cloud dashboard. | early SwiftUI/AppKit preview |
+| [RealityKit Pipeline Guide](https://github.com/kingkyylian/realitykitpipelineguide) | Asset generation for RealityKit should have manifests, CLI gates, screenshot evidence, and repeatable release checks. | preview CLI and teaching repo |
 
-## Recent Signal
+## Currently Shipping
 
-- AgentFit found stale command documentation in RedisInsight Cursor rules; the maintainers requested a PR and [merged the fix](https://github.com/redis/RedisInsight/pull/5889).
+- [AgentFit](https://github.com/kingkyylian/agentfit): improving dry-run validation quality and collecting more public agent-instruction examples.
+- [Linwarden](https://github.com/kingkyylian/linwarden): expanding rootless Linux posture checks, SARIF output, and GitHub Action usage.
+- [HandoffKit](https://github.com/kingkyylian/handoffkit): tightening resume packets, target-agent formatting, local verification capture, and secret scanning.
+- [Flowline](https://github.com/kingkyylian/flowline): turning the macOS overlay MVP into a clear early preview with CI, release notes, and privacy-first positioning.
+
+## Proof Points
+
+- AgentFit found stale command documentation in RedisInsight Cursor rules; maintainers requested a PR and [merged the fix](https://github.com/redis/RedisInsight/pull/5889).
 - AgentFit is published as an npm CLI and reusable GitHub Action.
-- Current work is focused on better report quality, real-world validation, and low-noise maintainer feedback.
+- Linwarden ships on PyPI with SARIF output and a composite GitHub Action for CI/security workflows.
+- HandoffKit ships as an npm CLI for clean handoffs between Codex, Claude Code, Cursor, Gemini, ChatGPT, and generic agents.
 
 ## Tooling
 
-TypeScript, Node.js, Python, Swift, React, Next.js, PostgreSQL, GitHub Actions, local-first CLI design, AI agent workflows.
+TypeScript, Node.js, Python, Swift, SwiftUI, AppKit, React, Next.js, PostgreSQL, GitHub Actions, local-first CLI design, security automation, AI agent workflows.
 
 ## Engineering Style
 
